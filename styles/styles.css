@@ -41,6 +41,12 @@ aside{
     text-align: center;
     position: relative;
 }
+
+aside h2{
+    position: absolute;
+    top: 40px;
+    left: 125px;
+}
 aside img{
     width: 200px;
     height: auto;
