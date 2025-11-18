@@ -23,6 +23,10 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header img{
+    width: 180px;
+}
+
 
 h1, h2 {
     font-family: var(--heading-font);
