@@ -38,9 +38,13 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 
+}
+
+footer a {.
+    display: inline-block;
 }
 
 .hero{
