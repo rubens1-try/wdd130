@@ -2,6 +2,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 main{
     max-width: 840px;
     padding: 15px;
