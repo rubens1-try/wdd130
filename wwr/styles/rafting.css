@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(255, 255, 255);
+    --primary-color: rgba(255, 255, 255, 0.589);
     --secondary-color:black;
     --accent1-color:rgba(0, 102, 255, 0.721);
     --accent2-color:rgb(222, 146, 7);
