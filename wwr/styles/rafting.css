@@ -31,7 +31,7 @@ header{
     display: grid;
     grid-template-columns: 300px  1fr;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: var(--primary-color);
     padding: 10px;
     margin: 1rem auto;
     border: 1px solid black;
@@ -173,7 +173,7 @@ footer{
    display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: var(--primary-color);
     padding: 10px;
     margin: 1rem auto;
     border: 1px solid black;
