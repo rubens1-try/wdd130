@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0 auto;
+    width: 600px;
+    color: navy;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+
+main{
+    width: 650px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(222, 220, 220, 0.795);
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgba(226, 223, 223, 0.879);
+    display: grid;
+}
+
+input, select, textarea{
+    padding: 15px;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+input{
+    padding: 15px;
+    width: 600px;
+    margin: 10px 10px;
+}
+
+button{
+    margin: 20px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 16px;
+    font-size: 1.2rem;
+}
+
+footer{
+    width: 650px;
+    margin: 10px 300px;
+}
