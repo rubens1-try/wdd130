@@ -184,4 +184,5 @@ footer{
 
 form{
     display: grid;
+    width: 400px;
 }
