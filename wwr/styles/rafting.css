@@ -154,3 +154,34 @@ footer{
     border: 1px solid black;
     justify-content: space-around;
 }
+
+.display{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3;
+    justify-content: center;
+}
+.contact-info{
+    grid-column: 1/3;
+    grid-row: 1/4;
+    color: black;
+    margin: 0 302px;
+    padding: .5rem;
+}
+
+.employees{
+    grid-row: 3/3;
+    width: 840px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.employees img{
+    width: 150px;
+    height: 150px;
+}
+
+form{
+    display: grid;
+}
