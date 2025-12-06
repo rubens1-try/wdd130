@@ -163,23 +163,29 @@ footer{
 
 .contact-info{
     display: flex;
-    flex: 1fr 2fr;
+    flex: 1 1 0%;
 }
 
 .tipa{
     background-color: var(--primary-color);
-    flex: ri;
+    flex: 1;
 }
 .tipa h1{
     color: black;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     opacity: 100%;
+    width: 350px;
+    top: 160px;
 }
 .tipo1{
     color: black;
     text-align: center;
     border: 1px solid black;
-    padding: 0;
+    padding: 1rem;
+    margin: 1px 10px;
+    font-size: 20px;
+    line-height: 5px;
+    width: 400px;
 }
 
 iframe{
