@@ -239,3 +239,22 @@ form{
     background-color: beige;
     border-radius: 5%;
 }
+
+/*For the Home page: index.html*/
+header{
+    border: none;
+}
+.picture{
+    width: 1000px;
+}
+
+.picture img{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}.
+
+.navigation{
+    position: absolute;
+    display: flex;
+}
