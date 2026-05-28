@@ -2,35 +2,47 @@ main {
     max-width: 840px;
 }
 
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
     padding: 10px;
-    box-shadow: 0 0 30px;
 }
 
 nav {
-    background-color: darkblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(63, 134, 179);
     padding: 10px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.2rem;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 1px solid black;
 }
 
 img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgba(186, 185, 185, 0.808);
 }
 
 p {
@@ -42,18 +54,50 @@ aside {
     margin: 10px;
     border: 1px solid gray;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(196, 193, 193);
     color: darkblue;
-    text-align: center;
 }
 
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
+    float: left;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(2, 1fr);
+    width: 840px;
+    height: auto;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+body {
+    font-family: serif;
+    font-size: larger;
 }
