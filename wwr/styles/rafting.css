@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #055a05;
+    --primary-color: rgba(50, 176, 222, 0.811);
     --secondary-color: antiquewhite;
     --accent1-color: darkblue;
     --accent2-color: rgba(237, 230, 125, 0.861);
@@ -28,11 +28,10 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     width: 100%;
     padding: 16px;
     background-color: var(--accent1-color);
-    color: #fff;
 }
 
 nav,
@@ -87,7 +86,7 @@ h1 {
 }
 
 header {
-    background-color: rgba(50, 176, 222, 0.811);
+    background-color: var(--primary-color);
     padding: 16px;
     margin: 0 auto 1rem auto;
     display: grid;
@@ -181,7 +180,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
-    background-color: rgba(50, 176, 222, 0.811);
+    background-color: var(--primary-color);
     padding: 10px;
     margin-top: 30px;
     border: 1px solid black;
