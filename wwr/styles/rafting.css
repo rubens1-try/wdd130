@@ -96,16 +96,13 @@ header {
 nav {
     margin-top: 50px;
     margin-left: 0;
-}
-
-ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 16px;
 }
 
-ul a {
+a {
     font-size: 20px;
     text-decoration: none;
     background-color: darkblue;
