@@ -193,3 +193,107 @@ footer p {
     justify-content: flex-end;
     gap: 15px;
 }
+
+.contact-info {
+    text-align: center;
+    background-color: var(--secondary-color);
+    width: 350px;
+    margin-left: 265px;
+    border: 1px solid black;
+}
+
+.contact-info h1 {
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    padding: 0;
+    width: 350px;
+    margin-top: 185px;
+}
+
+.tipo {
+    margin-top: 120px;
+    line-height: 0;
+    font-size: larger;
+}
+
+.map-feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 16px auto;
+    gap: 20px;
+}
+
+iframe {
+    width: 400px;
+    border-radius: 5%;
+    margin-left: 2rem;
+    margin-top: 30px;
+}
+
+.newsletter {
+    width: 400px;
+    padding: 16px;
+    margin: 0 auto;
+    font-size: larger;
+    line-height: 2;
+    margin-right: 2rem;
+    background-color: rgb(225, 224, 224);
+    border-radius: 5%;
+    display: grid;
+}
+
+label,
+input,
+button,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+label,
+textarea {
+    padding: 16px;
+    font-size: 1.1rem;
+    width: 360px;
+}
+
+input[type="text"] {
+    width: 370px;
+    padding: 10px;
+}
+
+input[type="email"] {
+    width: 370px;
+    padding: 10px;
+}
+
+.purpose {
+    display: flex;
+    margin: 10px 0;
+}
+
+.purpose p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
