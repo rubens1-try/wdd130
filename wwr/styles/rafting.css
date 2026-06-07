@@ -262,6 +262,11 @@ textarea {
     width: 360px;
 }
 
+textarea {
+    margin: 10px;
+    width: 320px;
+}
+
 input[type="text"] {
     width: 370px;
     padding: 10px;
@@ -313,15 +318,31 @@ button {
 }
 
 .board {
+    grid-row: 2/2;
+    grid-column: 1/6;
     display: flex;
     justify-content: space-evenly;
-    gap: 30px;
-    margin: 16px 30px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.board figure {
+    flex: 1;
+    text-align: center;
+    background-color: #f1f0f0;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
 }
 
 .board img {
-    width: 180px;
+    width: 170px;
     height: 200px;
-    align-items: center;
-    margin-left: 47px;
+}
+
+.board figcaption {
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+    font-weight: bold;
+    margin-top: 5px;
 }
