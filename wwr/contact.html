@@ -55,12 +55,20 @@
                             <p>Message purposes:</p>
                         </div>
                         <div class="sage">
-                            <label for="inquiry">General Inquiry</label>
-                            <input type="radio" name="inquiry" id="inquiry">
-                            <label for="question">Reservation Question</label>
-                            <input type="radio" name="question" id="question">
-                            <label for="suggestion">Website Suggestion</label>
-                            <input type="radio" name="suggestion" id="suggestion">
+                            <form>
+                                <label for="inquiry">General Inquiry</label>
+                                <input type="radio" name="contact_reason" id="inquiry"
+                                  value="inquiry">
+
+                                <label for="question">Reservation Question</label>
+                                <input type="radio" name="contact_reason" id="question"
+                                  value="question">
+
+                                <label for="suggestion">Website Suggestion</label>
+                                <input type="radio" name="contact_reason" id="suggestion"
+                                  value="suggestion">
+                            </form>
+
                         </div>
                     </div>
                     <label for="message"></label>
