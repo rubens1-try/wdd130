@@ -421,3 +421,35 @@ td {
 thead {
     background-color: var(--accent2-color);
 }
+
+.trip-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: gainsboro;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.trip-card {
+    width: 250px;
+    padding: 16px;
+    background-color: #fff;
+    border: 2px solid var(--accent1-color);
+}
+
+.trip-card h2 {
+    width: 230px;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.trip-card p {
+    text-align: center;
+}
+
+.trip-card img {
+    width: 230px;
+    margin-left: 0;
+}
